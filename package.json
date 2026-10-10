@@ -1,0 +1,17 @@
+{
+  "name": "local-service-directory",
+  "version": "1.0.0",
+  "description": "ServiceHub - Local Service Provider Directory (HTML, CSS, JavaScript, Node.js, MySQL)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.24.5"
+  }
+}
